@@ -1,0 +1,13 @@
+.confirmButtn {
+    background-color: #388e3c;
+    margin-right: 10px;
+}
+
+.cancelButtn {
+    margin-left: 10px;
+    background-color: #d50000;
+}
+
+.editLink {
+    color: white;
+}

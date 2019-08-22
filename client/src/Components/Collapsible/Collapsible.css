@@ -1,0 +1,20 @@
+.statusTrueTitle {
+    color: #388e3c;
+}
+
+.statusFalseTitle {
+    color: #d50000;
+    font-weight: bold;
+}
+
+.editButtn {
+    background-color: #388e3c;
+}
+
+.Link {
+    color: white;
+}
+
+.deleteButtn {
+    background-color: #d50000;
+}

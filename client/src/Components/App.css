@@ -1,0 +1,9 @@
+.mainDiv {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+.container {
+    width: 75%;
+    padding: 1%;
+}
