@@ -9,13 +9,17 @@ import App from './Components/App';
 import todoReducer from './store/reducers/todos';
 
 const rootReducer = combineReducers({
-    todoStore: todoReducer
+  todoStore: todoReducer
 });
-const store = createStore(rootReducer, {}, applyMiddleware(reduxThunk));
+const store = createStore(
+  rootReducer,
+  {},
+  applyMiddleware(reduxThunk)
+);
 
 ReactDOM.render(
-    <Provider store={store}>
-        <App />
-    </Provider>,
-    document.getElementById('root')
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
 );
